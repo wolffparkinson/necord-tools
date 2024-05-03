@@ -1,0 +1,34 @@
+{
+  "name": "necord-tools",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/src/main",
+  "scripts": {
+    "build": "nest build",
+    "dev": "dotenv -e .env -- nest start --watch",
+    "start": "node ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@nestjs/common": "^10.3.8",
+    "@nestjs/config": "^3.2.2",
+    "@nestjs/core": "^10.3.8",
+    "@nestjs/platform-express": "^10.3.8",
+    "chrono-node": "^2.7.5",
+    "discord.js": "^14.14.1",
+    "dotenv-cli": "^7.4.1",
+    "humanize-duration": "^3.32.0",
+    "luxon": "^3.4.4",
+    "necord": "^6.8.3",
+    "parse-duration": "^1.1.0",
+    "zod": "^3.23.6"
+  },
+  "devDependencies": {
+    "@nestjs/cli": "^10.3.2",
+    "@types/humanize-duration": "^3.27.4",
+    "@types/node": "^20.12.8",
+    "typescript": "^5.4.5"
+  }
+}
