@@ -4,6 +4,21 @@ This repository is a collection of reusable tools for Necord, a Discord bot fram
 
 ## Features
 
+- [DeferReply](#deferreply)
+- [DeferUpdate](#deferupdate)
+- [BotPermissions](#botpermissions)
+- [MemberPermissions](#memberpermissions)
+- [Interaction](#interaction)
+- [GlobalDiscordFilter](#globaldiscordfilter)
+- [DmOnlyGuard](#dmonlyguard)
+- [GuildOnlyGuard](#guildonlyguard)
+- [BotDevGuard](#botdevguard)
+- [InteractionLogger](#interactionlogger)
+- [EphemeralOption](#ephemeraloption)
+- [SlashProvider](#slashprovider)
+
+
+
 ### DeferReply
 
 - Decorator to defer reply to an interaction
