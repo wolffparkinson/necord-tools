@@ -17,8 +17,6 @@ This repository is a collection of reusable tools for Necord, a Discord bot fram
 - [EphemeralOption](#ephemeraloption)
 - [SlashProvider](#slashprovider)
 
-
-
 ### DeferReply
 
 - Decorator to defer reply to an interaction
@@ -153,3 +151,15 @@ export class MyCommand {
   }
 }
 ```
+
+### Examples
+
+Example implementations
+
+- [Eval](./src/modules//admin//eval/eval.command.ts) : Evaluate javascript code
+- [Exec](./src/modules//admin//exec/exec.command.ts) : Execute shell commands
+- [Database Commands](./src/modules/db-commands/db-commands.service.ts) : Registering commands that are saved in a remote database.
+- [Help menu](./src/modules/help) : Multilevel select help menu
+- [Invite link](./src/modules/invite/invite.command.ts) : Generate bot invite link dynamically with required permissions.
+- [Timestamp](./src/modules/tools/time/time.command.ts) : Discord timestamp using DateTime autocomplete
+- [Ping](./src/modules/tools/ping/ping.command.ts) : Ping Pong!
